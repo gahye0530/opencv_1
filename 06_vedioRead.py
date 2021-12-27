@@ -15,7 +15,7 @@ else :
         if ret == True :
             cv2.imshow('Video', frame)
             # 동영상이 플레이 하는 동안 멈추고 싶을땐 esc키를 눌러서 멈추도록 코딩
-            if cv2.waitKey(25) & 0xFF == 27 : break
+            if cv2.waitKey(25) & 0xff == 27 : break
         else :
             break
 
